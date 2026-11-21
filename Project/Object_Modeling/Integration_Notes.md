@@ -4,21 +4,21 @@ The main integration challenge was arranging the individual diagrams into a cohe
 
 ## Enumerations
 
-- **ChangeType** — request audit events.
-- **RequestStatus** — service request workflow states.
-- **Priority** — service request urgency.
-- **RequestCategory** — service request categories.
-- **BookingStatus** — booking and travel states.
-- **ImportStatus** — reservation import outcomes.
-- **LoyaltyTier** — membership tiers shared by loyalty accounts and segmentation.
-- **AdjustmentStatus** — point adjustment approval states.
-- **FeedbackCategory** — customer feedback categories.
-- **AccountStatus** — business account states.
-- **PartnerCategory** — partner service categories.
-- **StaffRole** — staff access roles.
-- **AuditOutcome** — restricted action outcomes.
-- **NotificationType** — communication categories.
-- **NotificationStatus** — notification processing states.
+- **ChangeType** — request audit events: STATUS_CHANGE, ASSIGNMENT, ESCALATION.
+- **RequestStatus** — service request workflow states: OPEN, IN_PROGRESS, RESOLVED, CLOSED.
+- **Priority** — service request urgency: LOW, MEDIUM, HIGH, URGENT.
+- **RequestCategory** — service request categories: BILLING, BAGGAGE, FLIGHT_DELAY, SERVICE_QUALITY, OTHER.
+- **BookingStatus** — booking and travel states: CONFIRMED, FLOWN, CANCELLED.
+- **ImportStatus** — reservation import outcomes: PENDING, IMPORTED, REJECTED.
+- **LoyaltyTier** — membership tiers shared by loyalty accounts and segmentation: SILVER, GOLD, PLATINUM.
+- **AdjustmentStatus** — point adjustment approval states: PENDING, APPROVED, REJECTED.
+- **FeedbackCategory** — customer feedback categories: FLIGHT_DELAY, CABIN_SERVICE, BAGGAGE, CHECK_IN, BOOKING, OTHER.
+- **AccountStatus** — business account states: ACTIVE, EXPIRED.
+- **PartnerCategory** — partner service categories: CATERING, MAINTENANCE.
+- **StaffRole** — staff access roles: CSR, ACCOUNT_MANAGER, MARKETING_STAFF, AIRLINE_MANAGEMENT, CRM_ADMIN.
+- **AuditOutcome** — restricted action outcomes: ALLOWED, DENIED.
+- **NotificationType** — communication categories: PROMOTION, BOOKING_UPDATE, FLIGHT_CHANGE, SERVICE_RESPONSE, CUSTOMER_ACTIVITY.
+- **NotificationStatus** — notification processing states: PENDING, SENT, FAILED.
 
 CampaignStatus was defined in earlier scope 3 work but is not referenced by the current merged diagram. ExportFormat was removed; OperationalReport instead provides exportPDF() and exportCSV(). No new enum types or values were introduced during integration.
 

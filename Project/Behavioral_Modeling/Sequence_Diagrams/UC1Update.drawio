@@ -68,8 +68,8 @@
         <mxCell id="bGU_FbSC0Rtr5KjpUEZ7-20" edge="1" parent="1" source="bGU_FbSC0Rtr5KjpUEZ7-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.92;exitY=0.714;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitPerimeter=0;" target="bGU_FbSC0Rtr5KjpUEZ7-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bGU_FbSC0Rtr5KjpUEZ7-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;[searchTerm is a booking reference] getBookingReference()&lt;/font&gt;&lt;/p&gt;" vertex="1">
-          <mxGeometry height="30" width="300" x="490" y="290" as="geometry" />
+        <mxCell id="bGU_FbSC0Rtr5KjpUEZ7-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;*[for each booking of this customer]&lt;br&gt;[searchTerm is a booking reference]&lt;br&gt;getBookingReference()&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="222" x="530" y="258" as="geometry" />
         </mxCell>
         <mxCell id="bGU_FbSC0Rtr5KjpUEZ7-22" parent="1" style="rounded=0;dashed=0;" value="" vertex="1">
           <mxGeometry height="140" width="10" x="515" y="220" as="geometry" />
