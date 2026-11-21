@@ -287,3 +287,71 @@ body[data-route="search"] .quick { visibility: hidden; }
 /* focus rings meet 3:1: spruce on paper, white on the rail */
 :focus-visible { outline-color: var(--spruce); }
 .rail :focus-visible { outline-color: #ffffff; }
+
+/* ---- v3: sign in, profile overview, review queue, refused/failed states, controls outside the prototype ---- */
+.me .initials { flex: none; }
+.top-right .btn.ghost { color: var(--muted); gap: 6px; }
+.top-right .btn.ghost:hover { color: var(--spruce-ink); }
+
+/* controls outside the prototype's use cases: visible, dimmed, inert, with a tooltip naming the use case */
+.btn[aria-disabled="true"] { opacity: .45; cursor: not-allowed; }
+.btn[aria-disabled="true"]:hover { background: transparent; color: inherit; }
+.btn[aria-disabled="true"]:active { transform: none; }
+.nav .off { display: flex; align-items: center; gap: 12px; height: 38px; padding: 0 10px; border-radius: var(--r); color: #c9ddd6; font-weight: 500; opacity: .5; cursor: not-allowed; }
+.nav .off svg { flex: none; opacity: .9; }
+.tabs .off { position: relative; padding: 10px 0 12px; font-weight: 600; color: #8b938f; cursor: not-allowed; }
+
+/* refused, denied and failed outcomes */
+.notice.neg { background: var(--neg-tint); color: #7e171c; }
+.notice.neg b { color: #7e171c; }
+.gap { margin-bottom: 20px; }
+.adjust #result .notice { margin-bottom: 16px; }
+.adjust .perm.no { color: var(--neg); }
+
+/* empty states and small table helpers */
+.empty { padding: 20px 0 8px; border-top: 1px solid var(--rule); }
+.empty h2, .empty h3 { margin: 0; font-size: 16px; line-height: 22px; font-weight: 650; }
+.empty p { margin: 6px 0 0; }
+.more { margin: 10px 0 0; font-size: 14px; }
+.clip { display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.kvrows th { width: 40%; color: #3d4541; font-size: 14px; border-top: 1px solid var(--rule); height: 46px; padding: 0 12px 0 0; }
+.kvrows tr:first-child th, .kvrows tr:first-child td { border-top: 0; }
+.dots { display: inline-flex; gap: 3px; margin-right: 10px; vertical-align: 1px; }
+.dots i { width: 8px; height: 8px; border-radius: 50%; background: #d3d9d5; }
+.dots i.on { background: var(--ink); }
+
+/* review queue (Airline Management) */
+.review-grid { grid-template-columns: 1.4fr 1fr 1.2fr auto; padding-left: 0; }
+.review-grid .why { margin: 0; }
+.review-grid .f { margin: 0; }
+.review-grid .f label { font-size: 13px; font-weight: 600; font-stretch: 75%; color: var(--muted); margin-bottom: 8px; }
+.review-grid .ta { height: 76px; }
+.review-grid .act { justify-content: flex-start; }
+
+/* sign in */
+body.signed-out .app { grid-template-columns: 1fr; }
+body.signed-out .rail, body.signed-out .top { display: none; }
+body.signed-out .sheet { padding: 0; }
+.login { display: grid; grid-template-columns: minmax(380px, 5fr) 7fr; min-height: 100vh; }
+.login-side { background: var(--spruce); color: #c9ddd6; padding: 22px 40px 28px; display: flex; flex-direction: column; gap: 40px; }
+.login-side .mark { padding: 0 0 0 8px; }
+.login-side h1 { color: #fff; max-width: 12ch; }
+.login-side p { margin: 14px 0 0; font-size: 16px; line-height: 24px; max-width: 34ch; }
+.login-art { display: block; width: 100%; height: auto; margin-top: auto; }
+.login-side .login-foot { margin: 0; font-size: 14px; color: #a9c7bd; }
+.login-main { display: grid; place-items: center; padding: 40px; }
+.login-form { width: 100%; max-width: 400px; }
+.login-form h2 { font-size: 32px; line-height: 36px; font-weight: 650; font-stretch: 82%; letter-spacing: -.02em; }
+.login-form .lede { margin: 8px 0 24px; }
+.login-form #lmsg .notice { margin-bottom: 18px; }
+.login-form .fine { color: var(--muted); }
+.btn.wide { width: 100%; height: 46px; font-size: 15px; margin-top: 10px; }
+
+@media (max-width: 900px) {
+  .nav .off span:not(.count) { display: none; }
+  .review-grid { grid-template-columns: 1fr; padding: 6px 16px 16px; }
+  .login { grid-template-columns: 1fr; min-height: 0; }
+  .login-side { padding: 16px; gap: 16px; }
+  .login-side h1, .login-side p, .login-art, .login-side .login-foot { display: none; }
+  .login-main { padding: 28px 16px 40px; place-items: start stretch; }
+}
