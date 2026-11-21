@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AirlineCRM – CSR workspace prototype</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="app">
+  <aside class="rail" aria-label="AirlineCRM">
+    <a class="mark" href="#home">
+      <svg width="26" height="26" viewBox="0 0 26 26" aria-hidden="true"><path d="M3 23 C 8 15, 15 8, 23 3" fill="none" stroke="#d99a0e" stroke-width="2.2" stroke-linecap="round"/><circle cx="3" cy="23" r="2.6" fill="#fff"/><circle cx="23" cy="3" r="2.6" fill="#d99a0e"/></svg>
+      <span>AirlineCRM</span>
+    </a>
+    <nav class="nav" id="nav" aria-label="Main"></nav>
+    <div class="me">
+      <span class="initials on-rail">MA</span>
+      <div><div class="me-name">Mariam Al Nuaimi</div><div class="me-role">Customer Service Representative</div></div>
+    </div>
+  </aside>
+  <div class="main">
+    <header class="top">
+      <a class="quick" href="#search" aria-label="Search customers">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="7" cy="7" r="4.6"/><path d="m10.5 10.5 3.5 3.5"/></svg>
+        <span>Find a customer by name, ID, email, phone or booking reference</span><kbd>/</kbd>
+      </a>
+      <div class="top-right"><span class="shift">Shift 06:00–14:00</span><span class="initials">MA</span></div>
+    </header>
+    <main id="sheet" class="sheet"></main>
+  </div>
+</div>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

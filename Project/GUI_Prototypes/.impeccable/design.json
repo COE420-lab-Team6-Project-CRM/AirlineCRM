@@ -1,0 +1,935 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-21T17:00:00Z",
+  "title": "Design System: AirlineCRM",
+  "extensions": {
+    "colorMeta": {
+      "spruce": {
+        "role": "primary",
+        "displayName": "Spruce Livery",
+        "canonical": "#0b4f43",
+        "oklch": "oklch(38.5% 0.067 177.2)",
+        "tonalRamp": [
+          "oklch(15% 0.067 177.2)",
+          "oklch(26% 0.067 177.2)",
+          "oklch(38% 0.067 177.2)",
+          "oklch(50% 0.067 177.2)",
+          "oklch(62% 0.067 177.2)",
+          "oklch(74% 0.067 177.2)",
+          "oklch(85% 0.067 177.2)",
+          "oklch(95% 0.067 177.2)"
+        ]
+      },
+      "spruce-deep": {
+        "role": "primary",
+        "displayName": "Deep Spruce",
+        "canonical": "#083c33",
+        "oklch": "oklch(32.1% 0.055 178.0)",
+        "tonalRamp": [
+          "oklch(15% 0.055 178.0)",
+          "oklch(26% 0.055 178.0)",
+          "oklch(38% 0.055 178.0)",
+          "oklch(50% 0.055 178.0)",
+          "oklch(62% 0.055 178.0)",
+          "oklch(74% 0.055 178.0)",
+          "oklch(85% 0.055 178.0)",
+          "oklch(95% 0.055 178.0)"
+        ]
+      },
+      "spruce-ink": {
+        "role": "primary",
+        "displayName": "Spruce Ink",
+        "canonical": "#0a3a31",
+        "oklch": "oklch(31.5% 0.052 177.2)",
+        "tonalRamp": [
+          "oklch(15% 0.052 177.2)",
+          "oklch(26% 0.052 177.2)",
+          "oklch(38% 0.052 177.2)",
+          "oklch(50% 0.052 177.2)",
+          "oklch(62% 0.052 177.2)",
+          "oklch(74% 0.052 177.2)",
+          "oklch(85% 0.052 177.2)",
+          "oklch(95% 0.052 177.2)"
+        ]
+      },
+      "spruce-tint": {
+        "role": "primary",
+        "displayName": "Spruce Tint",
+        "canonical": "#e4eeea",
+        "oklch": "oklch(94.0% 0.012 170.3)",
+        "tonalRamp": [
+          "oklch(15% 0.012 170.3)",
+          "oklch(26% 0.012 170.3)",
+          "oklch(38% 0.012 170.3)",
+          "oklch(50% 0.012 170.3)",
+          "oklch(62% 0.012 170.3)",
+          "oklch(74% 0.012 170.3)",
+          "oklch(85% 0.012 170.3)",
+          "oklch(95% 0.012 170.3)"
+        ]
+      },
+      "spruce-wash": {
+        "role": "primary",
+        "displayName": "Spruce Wash",
+        "canonical": "#f0f5f3",
+        "oklch": "oklch(96.6% 0.006 170.4)",
+        "tonalRamp": [
+          "oklch(15% 0.006 170.4)",
+          "oklch(26% 0.006 170.4)",
+          "oklch(38% 0.006 170.4)",
+          "oklch(50% 0.006 170.4)",
+          "oklch(62% 0.006 170.4)",
+          "oklch(74% 0.006 170.4)",
+          "oklch(85% 0.006 170.4)",
+          "oklch(95% 0.006 170.4)"
+        ]
+      },
+      "rail-text": {
+        "role": "neutral",
+        "displayName": "Rail Text",
+        "canonical": "#c9ddd6",
+        "oklch": "oklch(88.1% 0.023 172.8)",
+        "tonalRamp": [
+          "oklch(15% 0.023 172.8)",
+          "oklch(26% 0.023 172.8)",
+          "oklch(38% 0.023 172.8)",
+          "oklch(50% 0.023 172.8)",
+          "oklch(62% 0.023 172.8)",
+          "oklch(74% 0.023 172.8)",
+          "oklch(85% 0.023 172.8)",
+          "oklch(95% 0.023 172.8)"
+        ]
+      },
+      "rail-group": {
+        "role": "neutral",
+        "displayName": "Rail Group",
+        "canonical": "#9fc0b5",
+        "oklch": "oklch(78.0% 0.039 173.0)",
+        "tonalRamp": [
+          "oklch(15% 0.039 173.0)",
+          "oklch(26% 0.039 173.0)",
+          "oklch(38% 0.039 173.0)",
+          "oklch(50% 0.039 173.0)",
+          "oklch(62% 0.039 173.0)",
+          "oklch(74% 0.039 173.0)",
+          "oklch(85% 0.039 173.0)",
+          "oklch(95% 0.039 173.0)"
+        ]
+      },
+      "rail-meta": {
+        "role": "neutral",
+        "displayName": "Rail Meta",
+        "canonical": "#a9c7bd",
+        "oklch": "oklch(80.5% 0.035 173.2)",
+        "tonalRamp": [
+          "oklch(15% 0.035 173.2)",
+          "oklch(26% 0.035 173.2)",
+          "oklch(38% 0.035 173.2)",
+          "oklch(50% 0.035 173.2)",
+          "oklch(62% 0.035 173.2)",
+          "oklch(74% 0.035 173.2)",
+          "oklch(85% 0.035 173.2)",
+          "oklch(95% 0.035 173.2)"
+        ]
+      },
+      "rail-chip": {
+        "role": "neutral",
+        "displayName": "Rail Chip",
+        "canonical": "#cfe3dc",
+        "oklch": "oklch(89.9% 0.023 172.8)",
+        "tonalRamp": [
+          "oklch(15% 0.023 172.8)",
+          "oklch(26% 0.023 172.8)",
+          "oklch(38% 0.023 172.8)",
+          "oklch(50% 0.023 172.8)",
+          "oklch(62% 0.023 172.8)",
+          "oklch(74% 0.023 172.8)",
+          "oklch(85% 0.023 172.8)",
+          "oklch(95% 0.023 172.8)"
+        ]
+      },
+      "rail-avatar": {
+        "role": "primary",
+        "displayName": "Rail Avatar",
+        "canonical": "#1e6a5c",
+        "oklch": "oklch(47.5% 0.076 177.9)",
+        "tonalRamp": [
+          "oklch(15% 0.076 177.9)",
+          "oklch(26% 0.076 177.9)",
+          "oklch(38% 0.076 177.9)",
+          "oklch(50% 0.076 177.9)",
+          "oklch(62% 0.076 177.9)",
+          "oklch(74% 0.076 177.9)",
+          "oklch(85% 0.076 177.9)",
+          "oklch(95% 0.076 177.9)"
+        ]
+      },
+      "ground": {
+        "role": "neutral",
+        "displayName": "Cool Paper",
+        "canonical": "#f4f5f2",
+        "oklch": "oklch(96.9% 0.004 121.6)",
+        "tonalRamp": [
+          "oklch(15% 0.004 121.6)",
+          "oklch(26% 0.004 121.6)",
+          "oklch(38% 0.004 121.6)",
+          "oklch(50% 0.004 121.6)",
+          "oklch(62% 0.004 121.6)",
+          "oklch(74% 0.004 121.6)",
+          "oklch(85% 0.004 121.6)",
+          "oklch(95% 0.004 121.6)"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "White Surface",
+        "canonical": "#ffffff",
+        "oklch": "oklch(100.0% 0.000 89.9)",
+        "tonalRamp": [
+          "oklch(15% 0.000 89.9)",
+          "oklch(26% 0.000 89.9)",
+          "oklch(38% 0.000 89.9)",
+          "oklch(50% 0.000 89.9)",
+          "oklch(62% 0.000 89.9)",
+          "oklch(74% 0.000 89.9)",
+          "oklch(85% 0.000 89.9)",
+          "oklch(95% 0.000 89.9)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Timetable Ink",
+        "canonical": "#121614",
+        "oklch": "oklch(19.5% 0.007 164.1)",
+        "tonalRamp": [
+          "oklch(15% 0.007 164.1)",
+          "oklch(26% 0.007 164.1)",
+          "oklch(38% 0.007 164.1)",
+          "oklch(50% 0.007 164.1)",
+          "oklch(62% 0.007 164.1)",
+          "oklch(74% 0.007 164.1)",
+          "oklch(85% 0.007 164.1)",
+          "oklch(95% 0.007 164.1)"
+        ]
+      },
+      "head-ink": {
+        "role": "neutral",
+        "displayName": "Head Ink",
+        "canonical": "#2f3633",
+        "oklch": "oklch(32.5% 0.011 168.0)",
+        "tonalRamp": [
+          "oklch(15% 0.011 168.0)",
+          "oklch(26% 0.011 168.0)",
+          "oklch(38% 0.011 168.0)",
+          "oklch(50% 0.011 168.0)",
+          "oklch(62% 0.011 168.0)",
+          "oklch(74% 0.011 168.0)",
+          "oklch(85% 0.011 168.0)",
+          "oklch(95% 0.011 168.0)"
+        ]
+      },
+      "label-ink": {
+        "role": "neutral",
+        "displayName": "Label Ink",
+        "canonical": "#3d4541",
+        "oklch": "oklch(38.2% 0.012 164.3)",
+        "tonalRamp": [
+          "oklch(15% 0.012 164.3)",
+          "oklch(26% 0.012 164.3)",
+          "oklch(38% 0.012 164.3)",
+          "oklch(50% 0.012 164.3)",
+          "oklch(62% 0.012 164.3)",
+          "oklch(74% 0.012 164.3)",
+          "oklch(85% 0.012 164.3)",
+          "oklch(95% 0.012 164.3)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted Grey",
+        "canonical": "#545c58",
+        "oklch": "oklch(46.6% 0.012 164.5)",
+        "tonalRamp": [
+          "oklch(15% 0.012 164.5)",
+          "oklch(26% 0.012 164.5)",
+          "oklch(38% 0.012 164.5)",
+          "oklch(50% 0.012 164.5)",
+          "oklch(62% 0.012 164.5)",
+          "oklch(74% 0.012 164.5)",
+          "oklch(85% 0.012 164.5)",
+          "oklch(95% 0.012 164.5)"
+        ]
+      },
+      "faint": {
+        "role": "neutral",
+        "displayName": "Faint Grey",
+        "canonical": "#6a716d",
+        "oklch": "oklch(54.1% 0.010 161.1)",
+        "tonalRamp": [
+          "oklch(15% 0.010 161.1)",
+          "oklch(26% 0.010 161.1)",
+          "oklch(38% 0.010 161.1)",
+          "oklch(50% 0.010 161.1)",
+          "oklch(62% 0.010 161.1)",
+          "oklch(74% 0.010 161.1)",
+          "oklch(85% 0.010 161.1)",
+          "oklch(95% 0.010 161.1)"
+        ]
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "#dde2de",
+        "oklch": "oklch(90.8% 0.008 151.9)",
+        "tonalRamp": [
+          "oklch(15% 0.008 151.9)",
+          "oklch(26% 0.008 151.9)",
+          "oklch(38% 0.008 151.9)",
+          "oklch(50% 0.008 151.9)",
+          "oklch(62% 0.008 151.9)",
+          "oklch(74% 0.008 151.9)",
+          "oklch(85% 0.008 151.9)",
+          "oklch(95% 0.008 151.9)"
+        ]
+      },
+      "track": {
+        "role": "neutral",
+        "displayName": "Track",
+        "canonical": "#e6e9e7",
+        "oklch": "oklch(93.1% 0.004 157.2)",
+        "tonalRamp": [
+          "oklch(15% 0.004 157.2)",
+          "oklch(26% 0.004 157.2)",
+          "oklch(38% 0.004 157.2)",
+          "oklch(50% 0.004 157.2)",
+          "oklch(62% 0.004 157.2)",
+          "oklch(74% 0.004 157.2)",
+          "oklch(85% 0.004 157.2)",
+          "oklch(95% 0.004 157.2)"
+        ]
+      },
+      "map-grid": {
+        "role": "neutral",
+        "displayName": "Map Grid",
+        "canonical": "#e3e7e4",
+        "oklch": "oklch(92.4% 0.006 153.8)",
+        "tonalRamp": [
+          "oklch(15% 0.006 153.8)",
+          "oklch(26% 0.006 153.8)",
+          "oklch(38% 0.006 153.8)",
+          "oklch(50% 0.006 153.8)",
+          "oklch(62% 0.006 153.8)",
+          "oklch(74% 0.006 153.8)",
+          "oklch(85% 0.006 153.8)",
+          "oklch(95% 0.006 153.8)"
+        ]
+      },
+      "axis": {
+        "role": "neutral",
+        "displayName": "Axis",
+        "canonical": "#cfd5d1",
+        "oklch": "oklch(86.7% 0.008 157.1)",
+        "tonalRamp": [
+          "oklch(15% 0.008 157.1)",
+          "oklch(26% 0.008 157.1)",
+          "oklch(38% 0.008 157.1)",
+          "oklch(50% 0.008 157.1)",
+          "oklch(62% 0.008 157.1)",
+          "oklch(74% 0.008 157.1)",
+          "oklch(85% 0.008 157.1)",
+          "oklch(95% 0.008 157.1)"
+        ]
+      },
+      "tick": {
+        "role": "neutral",
+        "displayName": "Tick",
+        "canonical": "#b9c0bc",
+        "oklch": "oklch(80.1% 0.010 161.3)",
+        "tonalRamp": [
+          "oklch(15% 0.010 161.3)",
+          "oklch(26% 0.010 161.3)",
+          "oklch(38% 0.010 161.3)",
+          "oklch(50% 0.010 161.3)",
+          "oklch(62% 0.010 161.3)",
+          "oklch(74% 0.010 161.3)",
+          "oklch(85% 0.010 161.3)",
+          "oklch(95% 0.010 161.3)"
+        ]
+      },
+      "field-stroke": {
+        "role": "neutral",
+        "displayName": "Field Stroke",
+        "canonical": "#b7c5bf",
+        "oklch": "oklch(81.1% 0.017 168.4)",
+        "tonalRamp": [
+          "oklch(15% 0.017 168.4)",
+          "oklch(26% 0.017 168.4)",
+          "oklch(38% 0.017 168.4)",
+          "oklch(50% 0.017 168.4)",
+          "oklch(62% 0.017 168.4)",
+          "oklch(74% 0.017 168.4)",
+          "oklch(85% 0.017 168.4)",
+          "oklch(95% 0.017 168.4)"
+        ]
+      },
+      "chip": {
+        "role": "neutral",
+        "displayName": "Chip",
+        "canonical": "#e8ebe9",
+        "oklch": "oklch(93.7% 0.004 157.2)",
+        "tonalRamp": [
+          "oklch(15% 0.004 157.2)",
+          "oklch(26% 0.004 157.2)",
+          "oklch(38% 0.004 157.2)",
+          "oklch(50% 0.004 157.2)",
+          "oklch(62% 0.004 157.2)",
+          "oklch(74% 0.004 157.2)",
+          "oklch(85% 0.004 157.2)",
+          "oklch(95% 0.004 157.2)"
+        ]
+      },
+      "chip-ink": {
+        "role": "neutral",
+        "displayName": "Chip Ink",
+        "canonical": "#2c3330",
+        "oklch": "oklch(31.3% 0.011 168.0)",
+        "tonalRamp": [
+          "oklch(15% 0.011 168.0)",
+          "oklch(26% 0.011 168.0)",
+          "oklch(38% 0.011 168.0)",
+          "oklch(50% 0.011 168.0)",
+          "oklch(62% 0.011 168.0)",
+          "oklch(74% 0.011 168.0)",
+          "oklch(85% 0.011 168.0)",
+          "oklch(95% 0.011 168.0)"
+        ]
+      },
+      "amber": {
+        "role": "secondary",
+        "displayName": "Signal Amber",
+        "canonical": "#d99a0e",
+        "oklch": "oklch(72.9% 0.149 78.8)",
+        "tonalRamp": [
+          "oklch(15% 0.149 78.8)",
+          "oklch(26% 0.149 78.8)",
+          "oklch(38% 0.149 78.8)",
+          "oklch(50% 0.149 78.8)",
+          "oklch(62% 0.149 78.8)",
+          "oklch(74% 0.149 78.8)",
+          "oklch(85% 0.149 78.8)",
+          "oklch(95% 0.149 78.8)"
+        ]
+      },
+      "amber-ink": {
+        "role": "secondary",
+        "displayName": "Amber Ink",
+        "canonical": "#7a5200",
+        "oklch": "oklch(47.1% 0.099 76.3)",
+        "tonalRamp": [
+          "oklch(15% 0.099 76.3)",
+          "oklch(26% 0.099 76.3)",
+          "oklch(38% 0.099 76.3)",
+          "oklch(50% 0.099 76.3)",
+          "oklch(62% 0.099 76.3)",
+          "oklch(74% 0.099 76.3)",
+          "oklch(85% 0.099 76.3)",
+          "oklch(95% 0.099 76.3)"
+        ]
+      },
+      "amber-tint": {
+        "role": "secondary",
+        "displayName": "Amber Tint",
+        "canonical": "#fbf1d9",
+        "oklch": "oklch(96.0% 0.033 88.1)",
+        "tonalRamp": [
+          "oklch(15% 0.033 88.1)",
+          "oklch(26% 0.033 88.1)",
+          "oklch(38% 0.033 88.1)",
+          "oklch(50% 0.033 88.1)",
+          "oklch(62% 0.033 88.1)",
+          "oklch(74% 0.033 88.1)",
+          "oklch(85% 0.033 88.1)",
+          "oklch(95% 0.033 88.1)"
+        ]
+      },
+      "slate-wash": {
+        "role": "tertiary",
+        "displayName": "Slate Wash",
+        "canonical": "#e8edf0",
+        "oklch": "oklch(94.3% 0.007 233.6)",
+        "tonalRamp": [
+          "oklch(15% 0.007 233.6)",
+          "oklch(26% 0.007 233.6)",
+          "oklch(38% 0.007 233.6)",
+          "oklch(50% 0.007 233.6)",
+          "oklch(62% 0.007 233.6)",
+          "oklch(74% 0.007 233.6)",
+          "oklch(85% 0.007 233.6)",
+          "oklch(95% 0.007 233.6)"
+        ]
+      },
+      "slate-chip": {
+        "role": "tertiary",
+        "displayName": "Slate Chip",
+        "canonical": "#e9ecef",
+        "oklch": "oklch(94.2% 0.005 247.9)",
+        "tonalRamp": [
+          "oklch(15% 0.005 247.9)",
+          "oklch(26% 0.005 247.9)",
+          "oklch(38% 0.005 247.9)",
+          "oklch(50% 0.005 247.9)",
+          "oklch(62% 0.005 247.9)",
+          "oklch(74% 0.005 247.9)",
+          "oklch(85% 0.005 247.9)",
+          "oklch(95% 0.005 247.9)"
+        ]
+      },
+      "slate-ink": {
+        "role": "tertiary",
+        "displayName": "Slate Ink",
+        "canonical": "#1f2a30",
+        "oklch": "oklch(27.7% 0.019 232.2)",
+        "tonalRamp": [
+          "oklch(15% 0.019 232.2)",
+          "oklch(26% 0.019 232.2)",
+          "oklch(38% 0.019 232.2)",
+          "oklch(50% 0.019 232.2)",
+          "oklch(62% 0.019 232.2)",
+          "oklch(74% 0.019 232.2)",
+          "oklch(85% 0.019 232.2)",
+          "oklch(95% 0.019 232.2)"
+        ]
+      },
+      "pos-tint": {
+        "role": "tertiary",
+        "displayName": "Pos Tint",
+        "canonical": "#dff3e7",
+        "oklch": "oklch(94.6% 0.026 159.6)",
+        "tonalRamp": [
+          "oklch(15% 0.026 159.6)",
+          "oklch(26% 0.026 159.6)",
+          "oklch(38% 0.026 159.6)",
+          "oklch(50% 0.026 159.6)",
+          "oklch(62% 0.026 159.6)",
+          "oklch(74% 0.026 159.6)",
+          "oklch(85% 0.026 159.6)",
+          "oklch(95% 0.026 159.6)"
+        ]
+      },
+      "pos-ink": {
+        "role": "tertiary",
+        "displayName": "Pos Ink",
+        "canonical": "#12502f",
+        "oklch": "oklch(38.3% 0.084 155.2)",
+        "tonalRamp": [
+          "oklch(15% 0.084 155.2)",
+          "oklch(26% 0.084 155.2)",
+          "oklch(38% 0.084 155.2)",
+          "oklch(50% 0.084 155.2)",
+          "oklch(62% 0.084 155.2)",
+          "oklch(74% 0.084 155.2)",
+          "oklch(85% 0.084 155.2)",
+          "oklch(95% 0.084 155.2)"
+        ]
+      },
+      "neg": {
+        "role": "tertiary",
+        "displayName": "Signal Red",
+        "canonical": "#b4232a",
+        "oklch": "oklch(50.2% 0.180 24.6)",
+        "tonalRamp": [
+          "oklch(15% 0.180 24.6)",
+          "oklch(26% 0.180 24.6)",
+          "oklch(38% 0.180 24.6)",
+          "oklch(50% 0.180 24.6)",
+          "oklch(62% 0.180 24.6)",
+          "oklch(74% 0.180 24.6)",
+          "oklch(85% 0.180 24.6)",
+          "oklch(95% 0.180 24.6)"
+        ]
+      },
+      "neg-tint": {
+        "role": "tertiary",
+        "displayName": "Neg Tint",
+        "canonical": "#fbe5e3",
+        "oklch": "oklch(93.9% 0.024 23.8)",
+        "tonalRamp": [
+          "oklch(15% 0.024 23.8)",
+          "oklch(26% 0.024 23.8)",
+          "oklch(38% 0.024 23.8)",
+          "oklch(50% 0.024 23.8)",
+          "oklch(62% 0.024 23.8)",
+          "oklch(74% 0.024 23.8)",
+          "oklch(85% 0.024 23.8)",
+          "oklch(95% 0.024 23.8)"
+        ]
+      },
+      "neg-ink": {
+        "role": "tertiary",
+        "displayName": "Neg Ink",
+        "canonical": "#7e171c",
+        "oklch": "oklch(38.8% 0.137 24.3)",
+        "tonalRamp": [
+          "oklch(15% 0.137 24.3)",
+          "oklch(26% 0.137 24.3)",
+          "oklch(38% 0.137 24.3)",
+          "oklch(50% 0.137 24.3)",
+          "oklch(62% 0.137 24.3)",
+          "oklch(74% 0.137 24.3)",
+          "oklch(85% 0.137 24.3)",
+          "oklch(95% 0.137 24.3)"
+        ]
+      },
+      "tier-silver": {
+        "role": "tertiary",
+        "displayName": "Tier Silver",
+        "canonical": "#9aa29e",
+        "oklch": "oklch(70.5% 0.011 164.7)",
+        "tonalRamp": [
+          "oklch(15% 0.011 164.7)",
+          "oklch(26% 0.011 164.7)",
+          "oklch(38% 0.011 164.7)",
+          "oklch(50% 0.011 164.7)",
+          "oklch(62% 0.011 164.7)",
+          "oklch(74% 0.011 164.7)",
+          "oklch(85% 0.011 164.7)",
+          "oklch(95% 0.011 164.7)"
+        ]
+      },
+      "tier-gold": {
+        "role": "tertiary",
+        "displayName": "Tier Gold",
+        "canonical": "#8a7a3c",
+        "oklch": "oklch(58.1% 0.084 95.1)",
+        "tonalRamp": [
+          "oklch(15% 0.084 95.1)",
+          "oklch(26% 0.084 95.1)",
+          "oklch(38% 0.084 95.1)",
+          "oklch(50% 0.084 95.1)",
+          "oklch(62% 0.084 95.1)",
+          "oklch(74% 0.084 95.1)",
+          "oklch(85% 0.084 95.1)",
+          "oklch(95% 0.084 95.1)"
+        ]
+      },
+      "tier-platinum": {
+        "role": "tertiary",
+        "displayName": "Tier Platinum",
+        "canonical": "#5f7d8c",
+        "oklch": "oklch(57.2% 0.041 230.0)",
+        "tonalRamp": [
+          "oklch(15% 0.041 230.0)",
+          "oklch(26% 0.041 230.0)",
+          "oklch(38% 0.041 230.0)",
+          "oklch(50% 0.041 230.0)",
+          "oklch(62% 0.041 230.0)",
+          "oklch(74% 0.041 230.0)",
+          "oklch(85% 0.041 230.0)",
+          "oklch(95% 0.041 230.0)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "The points balance only."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "The home date line."
+      },
+      "headline-profile": {
+        "displayName": "Headline Profile",
+        "purpose": "Screen titles and the customer name on profile screens."
+      },
+      "figure": {
+        "displayName": "Figure",
+        "purpose": "Counts in the home figures strip."
+      },
+      "figure-small": {
+        "displayName": "Figure Small",
+        "purpose": "Travel stats, tier and member-since values."
+      },
+      "title-panel": {
+        "displayName": "Title Panel",
+        "purpose": "The Adjust points panel heading."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Timetable section headings."
+      },
+      "body-lede": {
+        "displayName": "Body Lede",
+        "purpose": "The one-sentence finding under a headline, max 70ch."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Table cells, notices, form text."
+      },
+      "label-strong": {
+        "displayName": "Label Strong",
+        "purpose": "Buttons, tabs, field labels, figure labels."
+      },
+      "column-head": {
+        "displayName": "Column Head",
+        "purpose": "Table column heads, condensed, head ink."
+      },
+      "caption": {
+        "displayName": "Caption",
+        "purpose": "Row sub-lines, section meta notes, legends, breadcrumb."
+      },
+      "code": {
+        "displayName": "Code",
+        "purpose": "Customer IDs, booking references, flight numbers, request and staff IDs."
+      },
+      "tag": {
+        "displayName": "Tag",
+        "purpose": "Status tags; the 13px floor."
+      },
+      "input-search": {
+        "displayName": "Search Input",
+        "purpose": "The large Locate customer field; 17px on narrow screens."
+      },
+      "input-points": {
+        "displayName": "Points Input",
+        "purpose": "The points figure in the adjust panel."
+      }
+    },
+    "shadows": [
+      {
+        "name": "focus-halo-search",
+        "value": "0 0 0 4px #e4eeea",
+        "purpose": "Large Locate customer input on focus, with a spruce border."
+      },
+      {
+        "name": "focus-halo-field",
+        "value": "0 0 0 3px rgba(11,79,67,.18)",
+        "purpose": "Inputs, selects and textareas on focus, with a spruce border."
+      },
+      {
+        "name": "keyline-mid",
+        "value": "inset 0 0 0 1px #9aa6ad",
+        "purpose": "Medium priority tag outline."
+      },
+      {
+        "name": "keyline-open",
+        "value": "inset 0 0 0 1px #6a716d",
+        "purpose": "Open and Pending review tag outline."
+      },
+      {
+        "name": "keyline-limit",
+        "value": "inset 0 0 0 2px #d99a0e",
+        "purpose": "Review-limit notice when an adjustment exceeds 3,000 points."
+      },
+      {
+        "name": "focus-outline",
+        "value": "outline: 2px solid #d99a0e; outline-offset: 2px",
+        "purpose": "Global :focus-visible ring for links, buttons and rows (an outline, not a shadow)."
+      }
+    ],
+    "motion": [
+      {
+        "name": "state",
+        "value": "0.15s ease",
+        "purpose": "Background, colour, border and opacity changes on hover and focus; map arc and timeline fades."
+      },
+      {
+        "name": "press",
+        "value": "transform 0.1s; translateY(1px)",
+        "purpose": "Button :active press."
+      },
+      {
+        "name": "dim",
+        "value": "opacity 0.2s",
+        "purpose": "Unselected search results fading to 50% when one is selected."
+      },
+      {
+        "name": "scale-fill",
+        "value": "transform 0.2s, background 0.2s",
+        "purpose": "Points scale fill following the typed value and turning amber past the limit."
+      },
+      {
+        "name": "view-enter",
+        "value": "0.22s cubic-bezier(.2,.8,.2,1); opacity .4 to 1, translateY(6px) to 0",
+        "purpose": "Each route render rises into place."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "@media (prefers-reduced-motion: reduce) { transition: none; animation: none }",
+        "purpose": "Turns off all transitions and animations."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "narrow",
+        "value": "max-width: 900px"
+      },
+      {
+        "name": "wide",
+        "value": "min-width: 901px"
+      }
+    ],
+    "layout": {
+      "railWidth": "232px",
+      "sheetPadding": "28px 40px 40px",
+      "sheetPaddingNarrow": "20px 16px 32px",
+      "splitHome": "7fr 5fr, 40px gutter",
+      "splitTravel": "7fr 5fr, 40px gutter",
+      "splitLoyalty": "1fr 400px, 40px gutter",
+      "figuresStrip": "repeat(4, 1fr); 2x2 below 900px",
+      "quickSearchMax": "560px",
+      "searchMax": "880px",
+      "ledeMax": "70ch"
+    }
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The one filled action per view (Find customer, Search, Open profile, Submit adjustment).",
+      "html": "<button class=\"ds-btn-primary\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><circle cx=\"7\" cy=\"7\" r=\"4.6\"/><path d=\"m10.5 10.5 3.5 3.5\"/></svg>Find customer</button>",
+      "css": ".ds-btn-primary { font-family: \"Archivo\", \"Helvetica Neue\", Arial, sans-serif; height: 40px; padding: 0 18px; display: inline-flex; align-items: center; gap: 8px; border-radius: var(--r, 4px); border: 1px solid var(--spruce, #0b4f43); background: var(--spruce, #0b4f43); color: #fff; font-size: 15px; font-weight: 600; cursor: pointer; white-space: nowrap; transition: background .15s, color .15s, transform .1s; } .ds-btn-primary:hover { background: var(--spruce-deep, #083c33); border-color: var(--spruce-deep, #083c33); } .ds-btn-primary:active { transform: translateY(1px); } .ds-btn-primary:focus-visible { outline: 2px solid var(--amber, #d99a0e); outline-offset: 2px; }"
+    },
+    {
+      "name": "Outline Button",
+      "kind": "button",
+      "refersTo": "button-outline",
+      "description": "Default secondary action: ink keyline that fills with ink on hover.",
+      "html": "<button class=\"ds-btn-outline\">Log service request</button>",
+      "css": ".ds-btn-outline { font-family: \"Archivo\", \"Helvetica Neue\", Arial, sans-serif; height: 40px; padding: 0 18px; display: inline-flex; align-items: center; gap: 8px; border-radius: var(--r, 4px); border: 1px solid var(--ink, #121614); background: transparent; color: var(--ink, #121614); font-size: 15px; font-weight: 600; cursor: pointer; white-space: nowrap; transition: background .15s, color .15s, transform .1s; } .ds-btn-outline:hover { background: var(--ink, #121614); color: #fff; } .ds-btn-outline:active { transform: translateY(1px); } .ds-btn-outline:focus-visible { outline: 2px solid var(--amber, #d99a0e); outline-offset: 2px; }"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Quiet section-level action in a timetable head (View all, Search, Not this customer).",
+      "html": "<button class=\"ds-btn-ghost\">View all</button>",
+      "css": ".ds-btn-ghost { font-family: \"Archivo\", \"Helvetica Neue\", Arial, sans-serif; height: 32px; padding: 0 8px; display: inline-flex; align-items: center; border-radius: var(--r, 4px); border: 1px solid transparent; background: transparent; color: var(--spruce, #0b4f43); font-size: 15px; font-weight: 600; cursor: pointer; transition: background .15s, color .15s; } .ds-btn-ghost:hover { background: var(--spruce-tint, #e4eeea); color: var(--spruce-ink, #0a3a31); } .ds-btn-ghost:focus-visible { outline: 2px solid var(--amber, #d99a0e); outline-offset: 2px; }"
+    },
+    {
+      "name": "Locate Customer Search",
+      "kind": "input",
+      "refersTo": "input-search",
+      "description": "The 56px search field with a 2px ink border and the paired large primary button.",
+      "html": "<form class=\"ds-search\" role=\"search\" onsubmit=\"return false\"><label class=\"ds-search-field\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 16 16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" aria-hidden=\"true\"><circle cx=\"7\" cy=\"7\" r=\"4.6\"/><path d=\"m10.5 10.5 3.5 3.5\"/></svg><input value=\"Kheder\" aria-label=\"Search term\"></label><button class=\"ds-search-btn\">Search</button></form>",
+      "css": ".ds-search { font-family: \"Archivo\", \"Helvetica Neue\", Arial, sans-serif; display: flex; gap: 10px; max-width: 880px; } .ds-search-field { position: relative; flex: 1; } .ds-search-field svg { position: absolute; left: 17px; top: 18px; color: var(--muted, #545c58); } .ds-search-field input { font-family: \"Archivo\", \"Helvetica Neue\", Arial, sans-serif; width: 100%; height: 56px; box-sizing: border-box; border: 2px solid var(--ink, #121614); border-radius: var(--r, 4px); background: #fff; color: var(--ink, #121614); padding: 0 16px 0 50px; font-size: 20px; font-weight: 500; } .ds-search-field input:focus { outline: none; border-color: var(--spruce, #0b4f43); box-shadow: 0 0 0 4px var(--spruce-tint, #e4eeea); } .ds-search-btn { font-family: \"Archivo\", \"Helvetica Neue\", Arial, sans-serif; height: 56px; padding: 0 26px; border-radius: var(--r, 4px); border: 1px solid var(--spruce, #0b4f43); background: var(--spruce, #0b4f43); color: #fff; font-size: 16px; font-weight: 600; cursor: pointer; transition: background .15s; } .ds-search-btn:hover { background: var(--spruce-deep, #083c33); } .ds-search-btn:focus-visible { outline: 2px solid var(--amber, #d99a0e); outline-offset: 2px; }"
+    },
+    {
+      "name": "Form Field",
+      "kind": "input",
+      "refersTo": "input-field",
+      "description": "Labelled 44px field with a field-stroke border, spruce focus halo and red error state.",
+      "html": "<div class=\"ds-f\"><label class=\"ds-f-label\" for=\"ds-reason\">Reason code</label><select id=\"ds-reason\" class=\"ds-in\"><option>Service recovery</option><option>Missing flight credit</option><option>Correction</option></select></div><div class=\"ds-f ds-bad\"><label class=\"ds-f-label\" for=\"ds-note\">Note</label><input id=\"ds-note\" class=\"ds-in\" value=\"\"><div class=\"ds-err\">A note is required.</div></div>",
+      "css": ".ds-f { font-family: \"Archivo\", \"Helvetica Neue\", Arial, sans-serif; margin-bottom: 14px; color: var(--ink, #121614); } .ds-f-label { display: block; font-size: 15px; font-weight: 600; margin-bottom: 6px; } .ds-in { font-family: \"Archivo\", \"Helvetica Neue\", Arial, sans-serif; width: 100%; box-sizing: border-box; height: 44px; border: 1px solid #b7c5bf; border-radius: var(--r, 4px); background: #fff; color: var(--ink, #121614); padding: 0 12px; font-size: 15px; transition: border-color .15s, box-shadow .15s; } .ds-in:focus { outline: none; border-color: var(--spruce, #0b4f43); box-shadow: 0 0 0 3px rgba(11,79,67,.18); } .ds-bad .ds-in { border-color: var(--neg, #b4232a); } .ds-err { color: var(--neg, #b4232a); font-size: 13px; margin-top: 4px; }"
+    },
+    {
+      "name": "Status Tags",
+      "kind": "chip",
+      "refersTo": "tag-neutral",
+      "description": "Read-only 24px status tags in tinted pairs, plus the dot-led tier marker.",
+      "html": "<div class=\"ds-tags\"><span class=\"ds-tag\">Flown</span><span class=\"ds-tag ds-tag-live\">In progress</span><span class=\"ds-tag ds-tag-pos\">Approved</span><span class=\"ds-tag ds-tag-neg\">Failed</span><span class=\"ds-tag ds-tag-mid\">Medium</span><span class=\"ds-tag ds-tag-open\">Pending review</span><span class=\"ds-tier\" style=\"--tc:#8a7a3c\">Gold</span></div>",
+      "css": ".ds-tags { font-family: \"Archivo\", \"Helvetica Neue\", Arial, sans-serif; display: flex; flex-wrap: wrap; gap: 10px; align-items: center; color: var(--ink, #121614); font-size: 15px; } .ds-tag { display: inline-flex; align-items: center; height: 24px; padding: 0 8px; border-radius: 3px; font-size: 13px; font-weight: 600; font-stretch: 80%; white-space: nowrap; background: #e8ebe9; color: #2c3330; } .ds-tag-live { background: var(--spruce-tint, #e4eeea); color: var(--spruce-ink, #0a3a31); } .ds-tag-pos { background: var(--pos-tint, #dff3e7); color: #12502f; } .ds-tag-neg { background: var(--neg-tint, #fbe5e3); color: #7e171c; } .ds-tag-mid { background: #e9ecef; color: #1f2a30; box-shadow: inset 0 0 0 1px #9aa6ad; } .ds-tag-open { background: transparent; color: #2f3633; box-shadow: inset 0 0 0 1px #6a716d; } .ds-tier { display: inline-flex; align-items: center; font-weight: 600; font-stretch: 80%; } .ds-tier::before { content: \"\"; width: 8px; height: 8px; border-radius: 50%; margin-right: 7px; background: var(--tc, #9aa29e); }"
+    },
+    {
+      "name": "Spruce Rail Navigation",
+      "kind": "nav",
+      "refersTo": "nav-item",
+      "description": "Left livery rail with brand arc, icon nav links, count pills and white-tint active state.",
+      "html": "<nav class=\"ds-rail\" aria-label=\"Main\"><a class=\"ds-mark\" href=\"#\"><svg width=\"26\" height=\"26\" viewBox=\"0 0 26 26\" aria-hidden=\"true\"><path d=\"M3 23 C 8 15, 15 8, 23 3\" fill=\"none\" stroke=\"#d99a0e\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><circle cx=\"3\" cy=\"23\" r=\"2.6\" fill=\"#fff\"/><circle cx=\"23\" cy=\"3\" r=\"2.6\" fill=\"#d99a0e\"/></svg>AirlineCRM</a><a class=\"ds-nav-a ds-active\" href=\"#\" aria-current=\"page\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M2.5 7.2 8 2.8l5.5 4.4V13.5H9.8V10H6.2v3.5H2.5Z\"/></svg>Home</a><a class=\"ds-nav-a\" href=\"#\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M2 9.5 3.8 3h8.4L14 9.5V13H2Z\"/><path d=\"M2 9.5h3.5l.8 1.5h3.4l.8-1.5H14\"/></svg>Service requests<span class=\"ds-count\">5</span></a><a class=\"ds-nav-a\" href=\"#\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M4 11V7a4 4 0 0 1 8 0v4l1.2 1.5H2.8Z\"/><path d=\"M6.5 14h3\"/></svg>Notifications<span class=\"ds-count\">4</span></a></nav>",
+      "css": ".ds-rail { font-family: \"Archivo\", \"Helvetica Neue\", Arial, sans-serif; width: 232px; box-sizing: border-box; background: var(--spruce, #0b4f43); color: #e6f0ec; padding: 22px 14px 18px; display: flex; flex-direction: column; font-size: 15px; } .ds-mark { display: flex; align-items: center; gap: 10px; padding: 0 8px 26px; color: #fff; font-size: 18px; font-weight: 700; font-stretch: 88%; letter-spacing: -.01em; text-decoration: none; } .ds-nav-a { display: flex; align-items: center; gap: 12px; height: 38px; padding: 0 10px; border-radius: var(--r, 4px); color: #c9ddd6; font-weight: 500; text-decoration: none; transition: background .15s, color .15s; } .ds-nav-a:hover { background: rgba(255,255,255,.07); color: #fff; } .ds-nav-a.ds-active { background: rgba(255,255,255,.13); color: #fff; } .ds-nav-a:focus-visible { outline: 2px solid var(--amber, #d99a0e); outline-offset: 2px; } .ds-count { margin-left: auto; min-width: 22px; height: 20px; padding: 0 6px; display: grid; place-items: center; border-radius: 10px; background: #cfe3dc; color: var(--spruce-deep, #083c33); font-size: 12px; font-weight: 600; font-stretch: 75%; }"
+    },
+    {
+      "name": "Timetable Section",
+      "kind": "custom",
+      "refersTo": "timetable-row",
+      "description": "2px ink rule, heading row with meta note, condensed column heads, 46px ruled rows; a proportional age bar drawn to scale.",
+      "html": "<section class=\"ds-tt\"><div class=\"ds-tt-head\"><h2>Your open service requests</h2><span class=\"ds-meta\">Oldest first · bar = days open, to scale</span></div><table class=\"ds-rows\"><thead><tr><th>Request</th><th>Customer</th><th>Priority</th><th style=\"width:30%\">Age</th><th class=\"ds-r\">Days</th></tr></thead><tbody><tr><td class=\"ds-code\">SR-21502</td><td>Layla Kheder</td><td><span class=\"ds-tag\">Medium</span></td><td><div class=\"ds-bar\"><i style=\"width:100%\"></i></div></td><td class=\"ds-r ds-semi\">19</td></tr><tr><td class=\"ds-code\">SR-21447</td><td>Sara Haddad</td><td><span class=\"ds-tag ds-neg\">High</span></td><td><div class=\"ds-bar\"><i style=\"width:16%\"></i></div></td><td class=\"ds-r ds-semi\">3</td></tr><tr><td class=\"ds-code\">SR-21533</td><td>Omar Al-Farsi</td><td><span class=\"ds-tag\">Low</span></td><td><div class=\"ds-bar\"><i style=\"width:11%\"></i></div></td><td class=\"ds-r ds-semi\">2</td></tr></tbody></table></section>",
+      "css": ".ds-tt { font-family: \"Archivo\", \"Helvetica Neue\", Arial, sans-serif; border-top: 2px solid var(--ink, #121614); padding-top: 12px; color: var(--ink, #121614); font-size: 15px; line-height: 22px; font-variant-numeric: tabular-nums; background: var(--ground, #f4f5f2); } .ds-tt-head { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; margin-bottom: 6px; } .ds-tt-head h2 { margin: 0; font-size: 16px; line-height: 22px; font-weight: 650; } .ds-meta { font-size: 14px; color: var(--muted, #545c58); } .ds-rows { width: 100%; border-collapse: collapse; } .ds-rows th { text-align: left; font-weight: 600; font-stretch: 75%; font-size: 14px; color: #2f3633; padding: 8px 12px 8px 0; white-space: nowrap; } .ds-rows td { padding: 0 12px 0 0; height: 46px; border-top: 1px solid var(--rule, #dde2de); white-space: nowrap; vertical-align: middle; } .ds-rows th:last-child, .ds-rows td:last-child { padding-right: 0; } .ds-rows tbody tr { cursor: pointer; } .ds-rows tbody tr:hover td { background: var(--spruce-wash, #f0f5f3); } .ds-r { text-align: right !important; } .ds-semi { font-weight: 600; } .ds-code { font-stretch: 75%; font-weight: 500; letter-spacing: .01em; } .ds-tag { display: inline-flex; align-items: center; height: 24px; padding: 0 8px; border-radius: 3px; font-size: 13px; font-weight: 600; font-stretch: 80%; background: #e8ebe9; color: #2c3330; } .ds-tag.ds-neg { background: #fbe5e3; color: #7e171c; } .ds-bar { position: relative; height: 6px; background: #e6e9e7; border-radius: 3px; min-width: 120px; } .ds-bar i { position: absolute; left: 0; top: 0; bottom: 0; border-radius: 3px; background: var(--ink, #121614); }"
+    },
+    {
+      "name": "Points Scale and Review Notice",
+      "kind": "custom",
+      "refersTo": "adjust-panel",
+      "description": "Spruce-tint adjust panel: points input over a to-scale 0-5,000 track with the amber 3,000 limit marker; fill turns amber past the limit and the notice switches to the amber-keyline review state.",
+      "html": "<aside class=\"ds-adjust\"><h2>Adjust points</h2><label class=\"ds-lab\" for=\"ds-pts\">Points</label><input id=\"ds-pts\" class=\"ds-pts\" value=\"3,500\" inputmode=\"numeric\"><div class=\"ds-scale\"><div class=\"ds-track\"></div><div class=\"ds-fill\" style=\"width:70%\"></div><div class=\"ds-limit\"></div></div><div class=\"ds-ticks\"><span>0</span><span style=\"margin-left:52%\">3,000 review limit</span><span>5,000</span></div><div class=\"ds-notice\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M8 2 14.5 13.5h-13Z\"/><path d=\"M8 6.5v3.2\"/><circle cx=\"8\" cy=\"11.6\" r=\".5\" fill=\"currentColor\"/></svg><div><b>Needs Airline Management review.</b> Above 3,000 points, so the balance changes only after approval.</div></div></aside>",
+      "css": ".ds-adjust { font-family: \"Archivo\", \"Helvetica Neue\", Arial, sans-serif; max-width: 400px; box-sizing: border-box; background: var(--spruce-tint, #e4eeea); border-radius: 6px; padding: 22px 24px 24px; color: var(--ink, #121614); font-size: 15px; line-height: 22px; font-variant-numeric: tabular-nums; } .ds-adjust h2 { margin: 0 0 18px; font-size: 20px; line-height: 26px; font-weight: 650; } .ds-lab { display: block; font-weight: 600; margin-bottom: 6px; } .ds-pts { font-family: \"Archivo\", \"Helvetica Neue\", Arial, sans-serif; width: 100%; box-sizing: border-box; height: 52px; border: 1px solid #b7c5bf; border-radius: var(--r, 4px); background: #fff; padding: 0 12px; font-size: 22px; font-weight: 600; font-stretch: 85%; color: var(--ink, #121614); transition: border-color .15s, box-shadow .15s; } .ds-pts:focus { outline: none; border-color: var(--spruce, #0b4f43); box-shadow: 0 0 0 3px rgba(11,79,67,.18); } .ds-scale { position: relative; height: 26px; margin-top: 10px; } .ds-track { position: absolute; left: 0; right: 0; top: 11px; height: 4px; background: #e6e9e7; border-radius: 2px; } .ds-fill { position: absolute; left: 0; top: 11px; height: 4px; border-radius: 2px; background: var(--amber, #d99a0e); transition: width .2s, background .2s; } .ds-limit { position: absolute; left: 60%; top: 4px; width: 2px; height: 18px; background: var(--amber, #d99a0e); } .ds-ticks { display: flex; justify-content: space-between; font-size: 12px; color: var(--muted, #545c58); font-stretch: 80%; margin-bottom: 14px; } .ds-notice { display: flex; gap: 12px; align-items: flex-start; padding: 12px 16px; border-radius: var(--r, 4px); background: #fff; color: var(--ink, #121614); box-shadow: inset 0 0 0 2px var(--amber, #d99a0e); } .ds-notice svg { flex: none; margin-top: 3px; } .ds-notice b { font-weight: 650; }"
+    },
+    {
+      "name": "Data-Quality Notice",
+      "kind": "custom",
+      "refersTo": "notice",
+      "description": "Slate filled strip naming the exact excluded record; amber is kept out of ordinary warnings.",
+      "html": "<div class=\"ds-dq\" role=\"status\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M8 2 14.5 13.5h-13Z\"/><path d=\"M8 6.5v3.2\"/><circle cx=\"8\" cy=\"11.6\" r=\".5\" fill=\"currentColor\"/></svg><div><b>1 imported reservation is not shown.</b> Booking <span class=\"ds-dq-code\">P6VR1S</span> (import <span class=\"ds-dq-code\">IMP-24117</span>) has no departure date. The other 9 bookings are complete.</div></div>",
+      "css": ".ds-dq { font-family: \"Archivo\", \"Helvetica Neue\", Arial, sans-serif; display: flex; gap: 12px; align-items: flex-start; padding: 12px 16px; border-radius: var(--r, 4px); background: #e8edf0; color: #1f2a30; font-size: 15px; line-height: 22px; } .ds-dq svg { flex: none; margin-top: 3px; } .ds-dq b { font-weight: 650; color: #10181c; } .ds-dq-code { font-stretch: 75%; font-weight: 500; letter-spacing: .01em; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Timetable & Route Map",
+    "overview": "AirlineCRM is set like a printed airline timetable. Every customer, booking, request and point adjustment is a row in one grid with exact columns, tabular figures and hairline rules. Travel is drawn the way a carrier's route map draws it: amber arcs bowing out from the Dubai hub. The room around the work is a spruce livery rail on the left and cool paper everywhere else. Regions are separated by colour fields, rules and type scale. There are no bordered containers.\n\nThe density is that of a work tool used on a live call. Rows are 46px tall (58px when they carry a second line), columns sit 12px apart, and the main sheet keeps a 40px margin. Quantities are drawn to scale wherever a number has a size: request age as a proportional bar, adjustments against a 3,000-point limit marker, flights placed on a dated timeline. The selected search result opens in place instead of moving to a new page.\n\nThe system refuses the boxed-card SaaS admin: white cards with borders and shadows, blue primary buttons, KPI tiles. It also has to survive print, because most readers see it as screenshots in a PDF report, so secondary text never drops below 14px and tags hold at 13px.",
+    "keyCharacteristics": [
+      "Spruce rail (#0b4f43) owns the left edge; cool paper (#f4f5f2) is the ground; ink (#121614) carries the type.",
+      "Amber appears only on routes, today, the review limit and live highlights.",
+      "One family, Archivo, with the width axis doing the work: condensed for codes and column heads, regular for reading.",
+      "Tabular figures everywhere.",
+      "Each section opens with a 2px ink rule, then a heading row, then 1px-ruled rows.",
+      "Flat paper. Depth comes from colour fields, not shadows."
+    ],
+    "rules": [
+      {
+        "name": "The Amber Signal Rule",
+        "body": "Amber marks something that is moving, current or over a limit: a route, today, the 3,000-point line, the hovered booking, the matched search text. It is never a button, never a heading, never text.",
+        "section": "colors"
+      },
+      {
+        "name": "The Colour-Field Rule",
+        "body": "A region is set apart by filling it (spruce rail, spruce-tint panel, spruce-wash selection, slate notice), not by drawing a border or a shadow around it. White is for fields the CSR types into.",
+        "section": "colors"
+      },
+      {
+        "name": "The One Family Rule",
+        "body": "Everything is Archivo. Hierarchy comes from size, weight and the width axis. Don't add a second family or a monospace for codes; use the condensed width.",
+        "section": "typography"
+      },
+      {
+        "name": "The Print Floor Rule",
+        "body": "Secondary text is 14px, tags and fact labels 13px, and nothing goes smaller. Muted text stays at #545c58 or darker on paper.",
+        "section": "typography"
+      },
+      {
+        "name": "The Timetable Rule",
+        "body": "Every list is a timetable section: 2px ink rule on top, a heading row with the meta note right-aligned on the baseline, condensed column heads, then rows divided by 1px hairlines. Numbers align right.",
+        "section": "layout"
+      },
+      {
+        "name": "The To-Scale Rule",
+        "body": "If a quantity has a size, draw it to scale against the true reference: age bars against the oldest request, adjustments against a 0–5,000 scale with the limit at 60%, flights on a date axis. Say so in the section meta (\"bar = days open, to scale\").",
+        "section": "layout"
+      },
+      {
+        "name": "The Flat Paper Rule",
+        "body": "Surfaces never cast shadows. A ring is allowed only at zero offset, to show focus or to outline a tag or notice.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** set every list as a timetable section: 2px ink (#121614) rule, 16px/650 heading with a right-aligned 14px meta note, 14px condensed column heads, 46px rows on 1px #dde2de hairlines.",
+      "**Do** use Archivo for everything, with the condensed width (wdth 75) for IDs, references, flight numbers and column heads, and tabular figures throughout.",
+      "**Do** draw quantities to scale against their real reference, and state the scale in the section meta.",
+      "**Do** keep amber (#d99a0e) for routes, today, the 3,000-point limit and live highlights, and use Amber Ink (#7a5200) when an amber-family label must be read as text.",
+      "**Do** separate regions with colour fields (spruce rail, #e4eeea panel, #f0f5f3 selection) and rules.",
+      "**Do** expand the selected item in place rather than navigating away to preview it.",
+      "**Do** keep secondary text at 14px and tags at 13px, muted no lighter than #545c58, so screens hold up in print.",
+      "**Do** show the count on every profile tab that holds records, and name the exact record in a data-quality notice (booking reference, import ID)."
+    ],
+    "donts": [
+      "**Don't** wrap content in white bordered or shadowed cards, or build KPI tiles; counts go in the ruled figures strip.",
+      "**Don't** add drop shadows or lifted surfaces. `box-shadow` is only a zero-offset focus halo or keyline ring.",
+      "**Don't** use blue primary buttons; the one filled button colour is spruce (#0b4f43).",
+      "**Don't** set text, headings or buttons in amber (#d99a0e); it measures 2.24:1 on paper.",
+      "**Don't** use amber for warnings that are not about the review limit; data-quality notices are slate (#e8edf0 / #1f2a30).",
+      "**Don't** add a second typeface or a monospace for codes.",
+      "**Don't** invent an airline brand, logo, livery name or real carrier codes; the product is \"AirlineCRM\" only and the brand mark is the abstract route arc."
+    ]
+  }
+}
