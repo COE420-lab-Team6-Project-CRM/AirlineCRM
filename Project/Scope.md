@@ -56,7 +56,7 @@ handling of their requests.
 | Payment processing, refunds, invoicing | Needs gateway integration and PCI-DSS compliance not achievable in the timeframe |
 | Check-in, seat inventory, baggage handling | Airport operations, outside the CRM domain |
 | Passenger- or client-facing portal or mobile app | System is staff-facing only |
-| Actual email/SMS despatch | Communications are composed and tracked in the CRM; despatch is assumed to be handled by an external platform, and integration with it is excluded |
+| Actual email/SMS despatch | Communications are composed and tracked in the CRM; despatch is assumed to be handled by an external platform, and integration with it is excluded; the sent/failed status (FR-14) is simulated |
 | Live chat and social media channels | Third-party APIs and real-time infrastructure beyond scope |
 | AI features (chatbot, sentiment analysis, churn prediction) | Requires training data and modelling effort disproportionate to the project |
 | Supply-chain, procurement or contract execution with partners | Only the *relationship* is tracked, not ordering or fulfilment |

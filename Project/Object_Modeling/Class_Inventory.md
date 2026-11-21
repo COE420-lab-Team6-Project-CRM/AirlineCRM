@@ -16,7 +16,7 @@ The integrated AirlineCRM model contains 19 unique classes.
 | C10 | Campaign | Targets one saved segment, generates personalized notifications and provides campaign results, including distinct converted-customer counts. | UC-12 | Chihab Ben Khadra |
 | C11 | Notification | Records promotions, booking/flight updates, service responses and staff activity alerts in customer context. Tracks status and retries without duplicate campaign notifications. | UC-12, UC-14 | Chihab Ben Khadra |
 | C12 | OperationalReport | Summarizes request volume, resolution time, complaint categories, loyalty distribution, campaign results and partner engagement for a date range. Exports PDF or CSV. | UC-15 | Chihab Ben Khadra |
-| C13 | LoyaltyAccount | Holds a customer's point balance and membership tier, applies adjustments and recalculates the tier (FR-08, FR-09). | UC-08, UC-09 | Rizwanul Abidin Asim |
+| C13 | LoyaltyAccount | Holds a customer's point balance, membership tier and tier history, applies adjustments and recalculates the tier (FR-08, FR-09). | UC-08, UC-09 | Rizwanul Abidin Asim |
 | C14 | PointAdjustment | A single manual change to a point balance, carrying the reason code, note and approval status. Rejected if either is missing, and held for senior review above 3,000 points (FR-09, NFR-07). | UC-09 | Rizwanul Abidin Asim |
 | C15 | Feedback | A rating and category recorded against a booking or service interaction, with an optional comment (FR-06, FR-07). | UC-06, UC-07 | Rizwanul Abidin Asim |
 | C16 | B2BAccount | Abstract parent of the two business account types. Holds organisation name, agreement dates, status and the interaction log, and enforces the expiry rule (FR-10). | UC-10 | Rizwanul Abidin Asim |

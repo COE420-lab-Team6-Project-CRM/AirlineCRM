@@ -21,7 +21,7 @@
         <mxCell id="yDolfCHN-s3Oi2WJtMGZ-283" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="AuditLogEntry" vertex="1">
           <mxGeometry height="140" width="280" x="1680" y="60" as="geometry" />
         </mxCell>
-        <mxCell id="yDolfCHN-s3Oi2WJtMGZ-284" parent="yDolfCHN-s3Oi2WJtMGZ-283" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- entryId: String&lt;div&gt;- action : String&lt;/div&gt;&lt;div&gt;- ﻿outcome: AuditOutcome&lt;/div&gt;&lt;div&gt;- ﻿occuredAt : DateTime&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="yDolfCHN-s3Oi2WJtMGZ-284" parent="yDolfCHN-s3Oi2WJtMGZ-283" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- entryId: String&lt;div&gt;- action : String&lt;/div&gt;&lt;div&gt;- ﻿outcome: AuditOutcome&lt;/div&gt;&lt;div&gt;- ﻿occurredAt : DateTime&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="69" width="280" y="26" as="geometry" />
         </mxCell>
         <mxCell id="yDolfCHN-s3Oi2WJtMGZ-285" parent="yDolfCHN-s3Oi2WJtMGZ-283" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
@@ -373,16 +373,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="yDolfCHN-s3Oi2WJtMGZ-368" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=28;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="LoyaltyAccount" vertex="1">
-          <mxGeometry height="228" width="360" x="1600" y="650" as="geometry" />
+          <mxGeometry height="260" width="360" x="1600" y="650" as="geometry" />
         </mxCell>
-        <mxCell id="yDolfCHN-s3Oi2WJtMGZ-369" parent="yDolfCHN-s3Oi2WJtMGZ-368" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- accountId : String&lt;br&gt;- customerId : String&lt;br&gt;- pointsBalance : int&lt;br&gt;- tier : LoyaltyTier&lt;br&gt;- enrolledOn : Date" vertex="1">
-          <mxGeometry height="96" width="360" y="28" as="geometry" />
+        <mxCell id="yDolfCHN-s3Oi2WJtMGZ-369" parent="yDolfCHN-s3Oi2WJtMGZ-368" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- accountId : String&lt;br&gt;- customerId : String&lt;br&gt;- pointsBalance : int&lt;br&gt;- tier : LoyaltyTier&lt;br&gt;- tierHistory : List&amp;lt;String&amp;gt;&lt;br&gt;- enrolledOn : Date" vertex="1">
+          <mxGeometry height="112" width="360" y="28" as="geometry" />
         </mxCell>
         <mxCell id="yDolfCHN-s3Oi2WJtMGZ-370" parent="yDolfCHN-s3Oi2WJtMGZ-368" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
-          <mxGeometry height="8" width="360" y="124" as="geometry" />
+          <mxGeometry height="8" width="360" y="140" as="geometry" />
         </mxCell>
-        <mxCell id="yDolfCHN-s3Oi2WJtMGZ-371" parent="yDolfCHN-s3Oi2WJtMGZ-368" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ getBalance() : int&lt;br&gt;+ getTier() : LoyaltyTier&lt;br&gt;+ applyAdjustment(adj : PointAdjustment) : boolean&lt;br&gt;+ getAdjustments(from : Date, to : Date) : List&amp;lt;PointAdjustment&amp;gt;&lt;br&gt;# recalculateTier() : LoyaltyTier" vertex="1">
-          <mxGeometry height="96" width="360" y="132" as="geometry" />
+        <mxCell id="yDolfCHN-s3Oi2WJtMGZ-371" parent="yDolfCHN-s3Oi2WJtMGZ-368" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ getBalance() : int&lt;br&gt;+ getTier() : LoyaltyTier&lt;br&gt;+ applyAdjustment(adj : PointAdjustment) : boolean&lt;br&gt;+ getAdjustments(from : Date, to : Date) : List&amp;lt;PointAdjustment&amp;gt;&lt;br&gt;+ getTierHistory() : List&amp;lt;String&amp;gt;&lt;br&gt;# recalculateTier() : LoyaltyTier" vertex="1">
+          <mxGeometry height="112" width="360" y="148" as="geometry" />
         </mxCell>
         <mxCell id="yDolfCHN-s3Oi2WJtMGZ-372" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=28;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="PointAdjustment" vertex="1">
           <mxGeometry height="228" width="330" x="1600" y="1080" as="geometry" />
@@ -495,7 +495,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yDolfCHN-s3Oi2WJtMGZ-405" edge="1" parent="1" source="yDolfCHN-s3Oi2WJtMGZ-372" style="endArrow=none;endFill=0;html=1;rounded=0;exitX=0;exitY=0.5;entryX=1;entryY=0.325;exitDx=0;exitDy=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" target="yDolfCHN-s3Oi2WJtMGZ-376" value="justifiedperformedBy">
+        <mxCell id="yDolfCHN-s3Oi2WJtMGZ-405" edge="1" parent="1" source="yDolfCHN-s3Oi2WJtMGZ-372" style="endArrow=none;endFill=0;html=1;rounded=0;exitX=0;exitY=0.5;entryX=1;entryY=0.325;exitDx=0;exitDy=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" target="yDolfCHN-s3Oi2WJtMGZ-376" value="justified by">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yDolfCHN-s3Oi2WJtMGZ-406" connectable="0" parent="yDolfCHN-s3Oi2WJtMGZ-405" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;" value="0..1" vertex="1">
@@ -508,7 +508,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yDolfCHN-s3Oi2WJtMGZ-408" edge="1" parent="1" source="yDolfCHN-s3Oi2WJtMGZ-279" style="endArrow=none;endFill=0;html=1;rounded=0;exitX=1;exitY=0.8;entryX=1;entryY=0.75;exitDx=0;exitDy=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;curved=0;" target="yDolfCHN-s3Oi2WJtMGZ-372" value="is madeperformedBy">
+        <mxCell id="yDolfCHN-s3Oi2WJtMGZ-408" edge="1" parent="1" source="yDolfCHN-s3Oi2WJtMGZ-279" style="endArrow=none;endFill=0;html=1;rounded=0;exitX=1;exitY=0.8;entryX=1;entryY=0.75;exitDx=0;exitDy=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;curved=0;" target="yDolfCHN-s3Oi2WJtMGZ-372" value="is made by">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="2040" y="276" />
