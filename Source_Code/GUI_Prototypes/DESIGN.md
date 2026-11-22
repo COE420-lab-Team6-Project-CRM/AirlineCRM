@@ -305,6 +305,9 @@ components:
   notice-limit:
     backgroundColor: "{colors.surface}"
     textColor: "{colors.ink}"
+  notice-neg:
+    backgroundColor: "{colors.neg-tint}"
+    textColor: "{colors.neg-ink}"
   initials:
     backgroundColor: "{colors.spruce-tint}"
     textColor: "{colors.spruce-ink}"
@@ -454,7 +457,8 @@ There are no cards. Containers are:
 - **Timetable section:** no background, a 2px ink top rule, 12px top padding. See The Timetable Rule.
 - **Figures strip:** 2px ink rule on top and a 1px hairline below. Four cells, each split from the next by a 1px hairline, with 14px/20px padding.
 - **Adjust panel:** Spruce Tint field, 6px corners, 22px/24px/24px padding, sticky. No border, no shadow.
-- **Notice:** a filled 12px/16px strip with 4px corners and a 16px icon. Slate for data-quality notices, Spruce Tint for info and confirmations, white with a 2px amber keyline when the 3,000-point review applies.
+- **Notice:** a filled 12px/16px strip with 4px corners and a 16px icon. Slate for data-quality notices, Spruce Tint for info and confirmations, white with a 2px amber keyline when the 3,000-point review applies, Neg Tint with Neg Ink for refused, denied or rolled-back outcomes (wrong sign-in, missing fields, no permission, failed save).
+- **Empty state:** a 1px hairline under the section heading, a 16px/650 line saying what is missing ("No bookings to show") and one muted sentence saying why or what happens next. No illustrations.
 
 ### Inputs / Fields
 - **Style:** white field, 1px Field Stroke border, 4px corners, 44px tall, 12px padding. The points input is 52px with a 22px semibold figure at width 85. Textareas start at 84px and grow with their content.
@@ -477,6 +481,15 @@ A 4px Track line with an ink or spruce fill and a 2px × 18px amber limit marker
 
 ### Expanding Search Result (signature)
 Clicking a result selects it: the row fills Spruce Wash, its top rule turns spruce, the other results drop to 50% opacity over 0.2s, and a detail row opens underneath with contact, identity-check and record columns plus the Open profile / Not this customer actions. Clicking the selected row again opens the profile.
+
+### Sign-in Screen
+The shell (rail and top bar) is hidden until a staff member signs in. The screen splits 5fr/7fr: on the left a spruce field with the brand mark, a white headline, one muted sentence, and the brand's route map drawn in rail tones (amber arcs from a white DXB hub, airport codes in Rail Group); on the right, on paper, a 400px form with "Sign in" at headline-profile size, a muted lede, two 44px fields, a full-width 46px spruce button and a muted fine-print line. Errors use the field-error pattern for empty fields and a Neg notice for refused credentials or a deactivated account. Below 900px the spruce field shrinks to a strip with the mark only.
+
+### Review Queue (Airline Management)
+Uses the Expanding Search Result pattern: pending adjustments are timetable rows, oldest first, with the points drawn on the 0–5,000 scale (amber fill, past the limit by definition). The selected row opens in place with the CSR's note, the effect of approving (balance and tier before → after), a reason field that is required only to reject, and Approve (primary) / Reject (outline) actions. Decided adjustments follow in a plain timetable section.
+
+### Controls Outside the Prototype
+Navigation items, tabs and buttons that belong to use cases the prototype doesn't cover stay in place so the product reads as complete, but are dimmed (45–50% opacity, a not-allowed cursor, no hover change), marked `aria-disabled`, and carry a tooltip naming the use case ("Outside this prototype: UC-05 Manage Service Request"). Tab counts stay visible.
 
 ### Motion
 Each view enters with a 0.22s rise (opacity 0.4 to 1, 6px upward, `cubic-bezier(.2,.8,.2,1)`). Hover and state colours change over 0.15s. Under `prefers-reduced-motion: reduce` all transitions and animations are turned off.

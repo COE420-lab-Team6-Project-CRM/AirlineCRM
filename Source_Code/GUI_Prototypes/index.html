@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>AirlineCRM – CSR workspace prototype</title>
+<title>AirlineCRM – staff workspace prototype</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
@@ -16,10 +16,7 @@
       <span>AirlineCRM</span>
     </a>
     <nav class="nav" id="nav" aria-label="Main"></nav>
-    <div class="me">
-      <span class="initials on-rail">MA</span>
-      <div><div class="me-name">Mariam Al Nuaimi</div><div class="me-role">Customer Service Representative</div></div>
-    </div>
+    <div class="me" id="me"></div>
   </aside>
   <div class="main">
     <header class="top">
@@ -27,7 +24,7 @@
         <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="7" cy="7" r="4.6"/><path d="m10.5 10.5 3.5 3.5"/></svg>
         <span>Find a customer by name, ID, email, phone or booking reference</span><kbd>/</kbd>
       </a>
-      <div class="top-right"><span class="shift">Shift 06:00–14:00</span><span class="initials">MA</span></div>
+      <div class="top-right" id="topRight"></div>
     </header>
     <main id="sheet" class="sheet"></main>
   </div>
